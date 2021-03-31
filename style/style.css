@@ -1,0 +1,175 @@
+@font-face {
+  src: url("/fonts/NotoSansJP-Light.otf");
+  font-family: "NotoSans-light", sans-serif;
+}
+body {
+  background-image: url("/img/okean_voda_podvodnyj_126683_1920x1080.jpg");
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  margin: 0px;
+  height: 1080px;
+  font-family: "NotoSans-light", sans-serif;
+}
+body *::-moz-selection {
+  background-color: #04a8a0;
+}
+body *::selection {
+  background-color: #04a8a0;
+}
+body hr {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 1px;
+  border: none;
+}
+body .reg {
+  height: 700px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px 20px 20px 20px;
+}
+body .reg .top {
+  position: absolute;
+  border-radius: 20px 20px 0px 0px;
+  top: 221px;
+  width: 500px;
+  height: 5%;
+  background-color: #06d2c9;
+  opacity: 1;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+body .reg .main {
+  height: 320px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+}
+body .reg .main .gmail {
+  width: 95%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 20px;
+}
+body .reg .main .gmail:focus {
+  outline: none;
+}
+body .reg .main .gmail::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+body .reg .main .gmail:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+body .reg .main .gmail::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+body .reg .main .pass {
+  width: 95%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  color: #FFF;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+body .reg .main .pass:focus {
+  outline: none;
+}
+body .reg .main .pass::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+body .reg .main .pass:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+body .reg .main .pass::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+body .reg .main .gender-text {
+  margin-top: 15px;
+  margin-left: 3px;
+  color: #FFF;
+}
+body .reg .main .gender {
+  width: 50%;
+  font-size: 18px;
+  background-color: #06d2c9;
+  margin-top: 10px;
+  color: #FFF;
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 10px;
+}
+body .reg .main .gender:focus {
+  outline: none;
+}
+body .reg .main .avatar-text {
+  margin-top: 15px;
+  margin-left: 3px;
+  color: #FFF;
+}
+body .reg .main .avatar {
+  margin-top: 15px;
+  width: 118px;
+}
+body .reg .main .avatar #file-upload-button {
+  width: 118px;
+}
+body .reg .main .age-text {
+  margin-top: 15px;
+  margin-left: 3px;
+  color: #FFF;
+}
+body .reg .main .age {
+  height: 25px;
+  font-size: 17px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: none;
+  background-color: #06d2c9;
+  color: #FFF;
+}
+body .reg .main .age:focus {
+  outline: none;
+}
+body .reg .main .age::-moz-placeholder {
+  color: #FFF;
+}
+body .reg .main .age:-ms-input-placeholder {
+  color: #FFF;
+}
+body .reg .main .age::placeholder {
+  color: #FFF;
+}
+body .reg .bottom {
+  position: absolute;
+  border-radius: 0px 0px 20px 20px;
+  top: 620px;
+  width: 500px;
+  height: 5%;
+  background-color: #06d2c9;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .reg .bottom input {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #00ffd5;
+  color: #FFF;
+  font-size: 16px;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
